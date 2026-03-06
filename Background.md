@@ -39,7 +39,43 @@ Brad Stevens oversees basketball operations for the Boston Celtics and is respon
 
 • Fans and Analysts – Influence public perception of roster decisions and strategic approaches to modern basketball.
 
-### References
+## Planned Data-Sets:
+
+#### NBA Yearly Summary for Power Forwards
+
+This dataset contains aggregated yearly shooting statistics for NBA power forwards from 1990 to 2024. The data was constructed using season-level player statistics from the Basketball-Reference database. Player totals were collected for each NBA season and filtered to include only players whose primary position was power forward.
+
+Using Python scripts, the player-level data was cleaned and aggregated into yearly summaries. The data preparation process included removing unnecessary columns, standardizing season formats, converting season labels from “YYYY–YY” to a single starting year, and calculating yearly averages and totals for key shooting metrics. These metrics include three-point attempts (3PA), three-point makes (3P), two-point attempts (2PA), two-point makes (2P), and shooting percentages.
+
+This dataset allows the project to examine long-term trends in frontcourt shot selection and determine whether power forwards have increasingly incorporated three-point shooting into their offensive role over time.
+
+#### NBA Team Power Forward and Center Shooting Data (Yearly)
+
+This dataset compiles team-level shooting statistics for power forwards and centers across all NBA teams from 1990 to 2024. The dataset was constructed by combining multiple season-level CSV files containing player shooting statistics for frontcourt positions.
+
+The data was processed using Python scripts in Visual Studio Code to automate the cleaning and aggregation process. These scripts searched through multiple CSV files, standardized historical team abbreviations (for example Seattle to Oklahoma City and New Jersey to Brooklyn, etc.), and merged the datasets into a single consistent format. The scripts also calculated team-level averages and totals for shooting metrics including three-point attempts, two-point attempts, field goal percentages, and other relevant statistics.
+
+Additional processing steps included removing redundant variables, standardizing column names, and generating totals for shot attempts by power forwards and centers on each team. The resulting dataset provides a consistent 30-year record of how frontcourt shooting behavior has evolved at the team level. This dataset will be used to evaluate whether perimeter shooting has become a common expectation for modern NBA big men.
+
+#### NBA Team Success (Win–Loss Records)
+
+This dataset contains yearly team performance metrics for NBA teams from 1990 to 2024, including wins, losses, and overall team success indicators. The data was collected from Basketball-Reference team statistics and organized into a structured dataset covering the same time period as the frontcourt shooting data.
+
+The dataset was cleaned using Python to standardize team names and abbreviations so that they match the team identifiers used in the shooting datasets. Historical franchise changes and relocations were also normalized to ensure consistency across seasons.
+
+This dataset allows the project to examine potential relationships between frontcourt shooting trends and team success. By combining team performance data with frontcourt shooting statistics, the analysis can explore whether teams that incorporate perimeter shooting from power forwards and centers tend to achieve stronger competitive outcomes.
+
+#### Data Wrangling Overview
+
+To prepare the datasets used in this project, several Python scripts were developed in Visual Studio Code to automate data cleaning and aggregation tasks. The original player statistics were downloaded as season-level CSV files containing shooting data for NBA players. These files were then processed using Python’s CSV and file-handling libraries to create consistent datasets suitable for long-term analysis.
+
+The wrangling process included filtering the data to include only power forwards and centers, merging multiple season files into unified datasets, and calculating yearly and team-level statistics. Several data standardization steps were required to ensure consistency across seasons, including correcting historical team abbreviations, merging team city and team name fields, removing redundant columns, and converting season labels from “YYYY–YY” format to a single starting year.
+
+Additional scripts were used to compute team-level averages and totals for frontcourt shooting statistics and to create summary datasets that capture long-term trends in shot selection. These automated scripts allow the entire dataset to be reproduced if new seasons are added in the future.
+
+Together, these data wrangling steps produced a clean, consistent dataset covering approximately 30 years of NBA frontcourt shooting behavior, enabling the project to analyze how the role of power forwards and centers has evolved and how these changes may influence roster construction decisions.
+
+### Citations APA
 
 Basketball-Reference. (2025). NBA player totals statistics (1990–2024 seasons). Sports Reference LLC. https://www.basketball-reference.com/leagues/NBA_2025_totals.html
 
