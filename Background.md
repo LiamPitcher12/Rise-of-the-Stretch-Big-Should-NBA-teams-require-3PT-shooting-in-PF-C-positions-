@@ -77,6 +77,8 @@ Together, these data wrangling steps produced a clean, consistent dataset coveri
 
 ### Citations APA
 
+API Used to access data (2026) NBA.com https://github.com/swar/nba_api
+
 Basketball-Reference. (2025). NBA player totals statistics (1990–2024 seasons). Sports Reference LLC. https://www.basketball-reference.com/leagues/NBA_2025_totals.html
 
 National Basketball Association. (2024). NBA statistics. https://stats.nba.com
