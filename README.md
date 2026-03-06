@@ -12,3 +12,7 @@ Over the past several decades, the NBA has experienced a major shift in offensiv
 This project investigates whether the role of NBA power forwards and centers has shifted toward perimeter shooting over the past thirty years. Using a dataset of frontcourt player shooting statistics compiled from multiple seasons, the analysis examines trends in shot selection, including changes in three-point attempts and two-point attempts over time. The project also explores how these changes relate to broader strategic trends in the league.
 
 The results of this analysis will help inform a key decision faced by NBA front offices and coaching staffs. Teams must decide whether to prioritize traditional interior big men or invest in developing “stretch bigs” who can shoot from the perimeter. Understanding how the role of frontcourt players has evolved can provide valuable insight into whether three-point shooting should now be considered a required skill for modern NBA power forwards and centers.
+
+## CLD diagram 
+
+![Causal Loop Diagram](img/nba_cld_diagram.png)
