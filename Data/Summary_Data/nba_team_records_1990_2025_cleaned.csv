@@ -1,0 +1,528 @@
+YEAR,TeamID,TeamCity,TeamName,Conference,W,L,W_PCT,Team,TeamAbv
+1990,1610612757,Portland,Trail Blazers,West,63,19,0.768,Portland Trail Blazers,POR
+1990,1610612741,Chicago,Bulls,East,61,21,0.744,Chicago Bulls,CHI
+1990,1610612738,Boston,Celtics,East,56,26,0.683,Boston Celtics,BOS
+1990,1610612759,San Antonio,Spurs,West,55,27,0.671,San Antonio Spurs,SAS
+1990,1610612765,Detroit,Pistons,East,50,32,0.61,Detroit Pistons,DET
+1990,1610612747,Los Angeles,Lakers,West,58,24,0.707,Los Angeles Lakers,LAL
+1990,1610612756,Phoenix,Suns,West,55,27,0.671,Phoenix Suns,PHX
+1990,1610612749,Milwaukee,Bucks,East,48,34,0.585,Milwaukee Bucks,MIL
+1990,1610612755,Philadelphia,76ers,East,44,38,0.537,Philadelphia 76ers,PHI
+1990,1610612762,Utah,Jazz,West,54,28,0.659,Utah Jazz,UTA
+1990,1610612737,Atlanta,Hawks,East,43,39,0.524,Atlanta Hawks,ATL
+1990,1610612745,Houston,Rockets,West,52,30,0.634,Houston Rockets,HOU
+1990,1610612744,Golden State,Warriors,West,44,38,0.537,Golden State Warriors,GSW
+1990,1610612754,Indiana,Pacers,East,41,41,0.5,Indiana Pacers,IND
+1990,1610612752,New York,Knicks,East,39,43,0.476,New York Knicks,NYK
+1990,1610612760,Oklahoma,Thunder,West,41,41,0.5,Oklahoma Thunder,OKC
+1990,1610612746,Los Angeles,Clippers,West,31,51,0.378,Los Angeles Clippers,LAC
+1990,1610612753,Orlando,Magic,West,31,51,0.378,Orlando Magic,ORL
+1990,1610612739,Cleveland,Cavaliers,East,33,49,0.402,Cleveland Cavaliers,CLE
+1990,1610612764,Washington,Wizards,East,30,52,0.366,Washington Wizards,WAS
+1990,1610612766,Charlotte,Hornets,East,26,56,0.317,Charlotte Hornets,CHA
+1990,1610612750,Minnesota,Timberwolves,West,29,53,0.354,Minnesota Timberwolves,MIN
+1990,1610612751,Brooklyn,Nets,East,26,56,0.317,Brooklyn Nets,BKN
+1990,1610612742,Dallas,Mavericks,West,28,54,0.341,Dallas Mavericks,DAL
+1990,1610612758,Sacramento,Kings,West,25,57,0.305,Sacramento Kings,SAC
+1990,1610612748,Miami,Heat,East,24,58,0.293,Miami Heat,MIA
+1990,1610612743,Denver,Nuggets,West,20,62,0.244,Denver Nuggets,DEN
+1992,1610612752,New York,Knicks,East,60,22,0.732,New York Knicks,NYK
+1992,1610612756,Phoenix,Suns,West,62,20,0.756,Phoenix Suns,PHX
+1992,1610612741,Chicago,Bulls,East,57,25,0.695,Chicago Bulls,CHI
+1992,1610612760,Oklahoma,Thunder,West,55,27,0.671,Oklahoma Thunder,OKC
+1992,1610612745,Houston,Rockets,West,55,27,0.671,Houston Rockets,HOU
+1992,1610612739,Cleveland,Cavaliers,East,54,28,0.659,Cleveland Cavaliers,CLE
+1992,1610612757,Portland,Trail Blazers,West,51,31,0.622,Portland Trail Blazers,POR
+1992,1610612738,Boston,Celtics,East,48,34,0.585,Boston Celtics,BOS
+1992,1610612766,Charlotte,Hornets,East,44,38,0.537,Charlotte Hornets,CHA
+1992,1610612759,San Antonio,Spurs,West,49,33,0.598,San Antonio Spurs,SAS
+1992,1610612751,Brooklyn,Nets,East,43,39,0.524,Brooklyn Nets,BKN
+1992,1610612737,Atlanta,Hawks,East,43,39,0.524,Atlanta Hawks,ATL
+1992,1610612762,Utah,Jazz,West,47,35,0.573,Utah Jazz,UTA
+1992,1610612746,Los Angeles,Clippers,West,41,41,0.5,Los Angeles Clippers,LAC
+1992,1610612747,Los Angeles,Lakers,West,39,43,0.476,Los Angeles Lakers,LAL
+1992,1610612754,Indiana,Pacers,East,41,41,0.5,Indiana Pacers,IND
+1992,1610612753,Orlando,Magic,East,41,41,0.5,Orlando Magic,ORL
+1992,1610612743,Denver,Nuggets,West,36,46,0.439,Denver Nuggets,DEN
+1992,1610612744,Golden State,Warriors,West,34,48,0.415,Golden State Warriors,GSW
+1992,1610612765,Detroit,Pistons,East,40,42,0.488,Detroit Pistons,DET
+1992,1610612748,Miami,Heat,East,36,46,0.439,Miami Heat,MIA
+1992,1610612758,Sacramento,Kings,West,25,57,0.305,Sacramento Kings,SAC
+1992,1610612749,Milwaukee,Bucks,East,28,54,0.341,Milwaukee Bucks,MIL
+1992,1610612750,Minnesota,Timberwolves,West,19,63,0.232,Minnesota Timberwolves,MIN
+1992,1610612755,Philadelphia,76ers,East,26,56,0.317,Philadelphia 76ers,PHI
+1992,1610612742,Dallas,Mavericks,West,11,71,0.134,Dallas Mavericks,DAL
+1992,1610612764,Washington,Wizards,East,22,60,0.268,Washington Wizards,WAS
+1994,1610612753,Orlando,Magic,East,57,25,0.695,Orlando Magic,ORL
+1994,1610612759,San Antonio,Spurs,West,62,20,0.756,San Antonio Spurs,SAS
+1994,1610612754,Indiana,Pacers,East,52,30,0.634,Indiana Pacers,IND
+1994,1610612756,Phoenix,Suns,West,59,23,0.72,Phoenix Suns,PHX
+1994,1610612752,New York,Knicks,East,55,27,0.671,New York Knicks,NYK
+1994,1610612762,Utah,Jazz,West,60,22,0.732,Utah Jazz,UTA
+1994,1610612760,Oklahoma,Thunder,West,57,25,0.695,Oklahoma Thunder,OKC
+1994,1610612766,Charlotte,Hornets,East,50,32,0.61,Charlotte Hornets,CHA
+1994,1610612741,Chicago,Bulls,East,47,35,0.573,Chicago Bulls,CHI
+1994,1610612747,Los Angeles,Lakers,West,48,34,0.585,Los Angeles Lakers,LAL
+1994,1610612739,Cleveland,Cavaliers,East,43,39,0.524,Cleveland Cavaliers,CLE
+1994,1610612745,Houston,Rockets,West,47,35,0.573,Houston Rockets,HOU
+1994,1610612737,Atlanta,Hawks,East,42,40,0.512,Atlanta Hawks,ATL
+1994,1610612757,Portland,Trail Blazers,West,44,38,0.537,Portland Trail Blazers,POR
+1994,1610612738,Boston,Celtics,East,35,47,0.427,Boston Celtics,BOS
+1994,1610612743,Denver,Nuggets,West,41,41,0.5,Denver Nuggets,DEN
+1994,1610612749,Milwaukee,Bucks,East,34,48,0.415,Milwaukee Bucks,MIL
+1994,1610612758,Sacramento,Kings,West,39,43,0.476,Sacramento Kings,SAC
+1994,1610612742,Dallas,Mavericks,West,36,46,0.439,Dallas Mavericks,DAL
+1994,1610612748,Miami,Heat,East,32,50,0.39,Miami Heat,MIA
+1994,1610612744,Golden State,Warriors,West,26,56,0.317,Golden State Warriors,GSW
+1994,1610612751,Brooklyn,Nets,East,30,52,0.366,Brooklyn Nets,BKN
+1994,1610612750,Minnesota,Timberwolves,West,21,61,0.256,Minnesota Timberwolves,MIN
+1994,1610612765,Detroit,Pistons,East,28,54,0.341,Detroit Pistons,DET
+1994,1610612746,Los Angeles,Clippers,West,17,65,0.207,Los Angeles Clippers,LAC
+1994,1610612755,Philadelphia,76ers,East,24,58,0.293,Philadelphia 76ers,PHI
+1994,1610612764,Washington,Wizards,East,21,61,0.256,Washington Wizards,WAS
+1996,1610612741,Chicago,Bulls,East,69,13,0.841,Chicago Bulls,CHI
+1996,1610612762,Utah,Jazz,West,64,18,0.78,Utah Jazz,UTA
+1996,1610612745,Houston,Rockets,West,57,25,0.695,Houston Rockets,HOU
+1996,1610612760,Oklahoma,Thunder,West,57,25,0.695,Oklahoma Thunder,OKC
+1996,1610612748,Miami,Heat,East,61,21,0.744,Miami Heat,MIA
+1996,1610612752,New York,Knicks,East,57,25,0.695,New York Knicks,NYK
+1996,1610612747,Los Angeles,Lakers,West,56,26,0.683,Los Angeles Lakers,LAL
+1996,1610612737,Atlanta,Hawks,East,56,26,0.683,Atlanta Hawks,ATL
+1996,1610612765,Detroit,Pistons,East,54,28,0.659,Detroit Pistons,DET
+1996,1610612757,Portland,Trail Blazers,West,49,33,0.598,Portland Trail Blazers,POR
+1996,1610612766,Charlotte,Hornets,East,54,28,0.659,Charlotte Hornets,CHA
+1996,1610612756,Phoenix,Suns,West,40,42,0.488,Phoenix Suns,PHX
+1996,1610612750,Minnesota,Timberwolves,West,40,42,0.488,Minnesota Timberwolves,MIN
+1996,1610612753,Orlando,Magic,East,45,37,0.549,Orlando Magic,ORL
+1996,1610612746,Los Angeles,Clippers,West,36,46,0.439,Los Angeles Clippers,LAC
+1996,1610612764,Washington,Wizards,East,44,38,0.537,Washington Wizards,WAS
+1996,1610612758,Sacramento,Kings,West,34,48,0.415,Sacramento Kings,SAC
+1996,1610612739,Cleveland,Cavaliers,East,42,40,0.512,Cleveland Cavaliers,CLE
+1996,1610612754,Indiana,Pacers,East,39,43,0.476,Indiana Pacers,IND
+1996,1610612744,Golden State,Warriors,West,30,52,0.366,Golden State Warriors,GSW
+1996,1610612742,Dallas,Mavericks,West,24,58,0.293,Dallas Mavericks,DAL
+1996,1610612749,Milwaukee,Bucks,East,33,49,0.402,Milwaukee Bucks,MIL
+1996,1610612761,Toronto,Raptors,East,30,52,0.366,Toronto Raptors,TOR
+1996,1610612743,Denver,Nuggets,West,21,61,0.256,Denver Nuggets,DEN
+1996,1610612751,Brooklyn,Nets,East,26,56,0.317,Brooklyn Nets,BKN
+1996,1610612759,San Antonio,Spurs,West,20,62,0.244,San Antonio Spurs,SAS
+1996,1610612755,Philadelphia,76ers,East,22,60,0.268,Philadelphia 76ers,PHI
+1996,1610612763,Memphis,Grizzlies,West,14,68,0.171,Memphis Grizzlies,MEM
+1996,1610612738,Boston,Celtics,East,15,67,0.183,Boston Celtics,BOS
+1998,1610612759,San Antonio,Spurs,West,37,13,0.74,San Antonio Spurs,SAS
+1998,1610612753,Orlando,Magic,East,33,17,0.66,Orlando Magic,ORL
+1998,1610612754,Indiana,Pacers,East,33,17,0.66,Indiana Pacers,IND
+1998,1610612748,Miami,Heat,East,33,17,0.66,Miami Heat,MIA
+1998,1610612762,Utah,Jazz,West,37,13,0.74,Utah Jazz,UTA
+1998,1610612757,Portland,Trail Blazers,West,35,15,0.7,Portland Trail Blazers,POR
+1998,1610612747,Los Angeles,Lakers,West,31,19,0.62,Los Angeles Lakers,LAL
+1998,1610612737,Atlanta,Hawks,East,31,19,0.62,Atlanta Hawks,ATL
+1998,1610612745,Houston,Rockets,West,31,19,0.62,Houston Rockets,HOU
+1998,1610612765,Detroit,Pistons,East,29,21,0.58,Detroit Pistons,DET
+1998,1610612758,Sacramento,Kings,West,27,23,0.54,Sacramento Kings,SAC
+1998,1610612749,Milwaukee,Bucks,East,28,22,0.56,Milwaukee Bucks,MIL
+1998,1610612755,Philadelphia,76ers,East,28,22,0.56,Philadelphia 76ers,PHI
+1998,1610612756,Phoenix,Suns,West,27,23,0.54,Phoenix Suns,PHX
+1998,1610612752,New York,Knicks,East,27,23,0.54,New York Knicks,NYK
+1998,1610612750,Minnesota,Timberwolves,West,25,25,0.5,Minnesota Timberwolves,MIN
+1998,1610612760,Oklahoma,Thunder,West,25,25,0.5,Oklahoma Thunder,OKC
+1998,1610612766,Charlotte,Hornets,East,26,24,0.52,Charlotte Hornets,CHA
+1998,1610612761,Toronto,Raptors,East,23,27,0.46,Toronto Raptors,TOR
+1998,1610612744,Golden State,Warriors,West,21,29,0.42,Golden State Warriors,GSW
+1998,1610612739,Cleveland,Cavaliers,East,22,28,0.44,Cleveland Cavaliers,CLE
+1998,1610612742,Dallas,Mavericks,West,19,31,0.38,Dallas Mavericks,DAL
+1998,1610612738,Boston,Celtics,East,19,31,0.38,Boston Celtics,BOS
+1998,1610612743,Denver,Nuggets,West,14,36,0.28,Denver Nuggets,DEN
+1998,1610612746,Los Angeles,Clippers,West,9,41,0.18,Los Angeles Clippers,LAC
+1998,1610612764,Washington,Wizards,East,18,32,0.36,Washington Wizards,WAS
+1998,1610612763,Memphis,Grizzlies,West,8,42,0.16,Memphis Grizzlies,MEM
+1998,1610612751,Brooklyn,Nets,East,16,34,0.32,Brooklyn Nets,BKN
+1998,1610612741,Chicago,Bulls,East,13,37,0.26,Chicago Bulls,CHI
+2000,1610612759,San Antonio,Spurs,West,58,24,0.707,San Antonio Spurs,SAS
+2000,1610612755,Philadelphia,76ers,East,56,26,0.683,Philadelphia 76ers,PHI
+2000,1610612749,Milwaukee,Bucks,East,52,30,0.634,Milwaukee Bucks,MIL
+2000,1610612747,Los Angeles,Lakers,West,56,26,0.683,Los Angeles Lakers,LAL
+2000,1610612758,Sacramento,Kings,West,55,27,0.671,Sacramento Kings,SAC
+2000,1610612748,Miami,Heat,East,50,32,0.61,Miami Heat,MIA
+2000,1610612742,Dallas,Mavericks,West,53,29,0.646,Dallas Mavericks,DAL
+2000,1610612752,New York,Knicks,East,48,34,0.585,New York Knicks,NYK
+2000,1610612762,Utah,Jazz,West,53,29,0.646,Utah Jazz,UTA
+2000,1610612761,Toronto,Raptors,East,47,35,0.573,Toronto Raptors,TOR
+2000,1610612766,Charlotte,Hornets,East,46,36,0.561,Charlotte Hornets,CHA
+2000,1610612756,Phoenix,Suns,West,51,31,0.622,Phoenix Suns,PHX
+2000,1610612757,Portland,Trail Blazers,West,50,32,0.61,Portland Trail Blazers,POR
+2000,1610612753,Orlando,Magic,East,43,39,0.524,Orlando Magic,ORL
+2000,1610612754,Indiana,Pacers,East,41,41,0.5,Indiana Pacers,IND
+2000,1610612750,Minnesota,Timberwolves,West,47,35,0.573,Minnesota Timberwolves,MIN
+2000,1610612745,Houston,Rockets,West,45,37,0.549,Houston Rockets,HOU
+2000,1610612738,Boston,Celtics,East,36,46,0.439,Boston Celtics,BOS
+2000,1610612760,Oklahoma,Thunder,West,44,38,0.537,Oklahoma Thunder,OKC
+2000,1610612765,Detroit,Pistons,East,32,50,0.39,Detroit Pistons,DET
+2000,1610612739,Cleveland,Cavaliers,East,30,52,0.366,Cleveland Cavaliers,CLE
+2000,1610612743,Denver,Nuggets,West,40,42,0.488,Denver Nuggets,DEN
+2000,1610612746,Los Angeles,Clippers,West,31,51,0.378,Los Angeles Clippers,LAC
+2000,1610612751,Brooklyn,Nets,East,26,56,0.317,Brooklyn Nets,BKN
+2000,1610612763,Memphis,Grizzlies,West,23,59,0.28,Memphis Grizzlies,MEM
+2000,1610612737,Atlanta,Hawks,East,25,57,0.305,Atlanta Hawks,ATL
+2000,1610612764,Washington,Wizards,East,19,63,0.232,Washington Wizards,WAS
+2000,1610612744,Golden State,Warriors,West,17,65,0.207,Golden State Warriors,GSW
+2000,1610612741,Chicago,Bulls,East,15,67,0.183,Chicago Bulls,CHI
+2002,1610612759,San Antonio,Spurs,West,60,22,0.732,San Antonio Spurs,SAS
+2002,1610612765,Detroit,Pistons,East,50,32,0.61,Detroit Pistons,DET
+2002,1610612751,Brooklyn,Nets,East,49,33,0.598,Brooklyn Nets,BKN
+2002,1610612758,Sacramento,Kings,West,59,23,0.72,Sacramento Kings,SAC
+2002,1610612754,Indiana,Pacers,East,48,34,0.585,Indiana Pacers,IND
+2002,1610612742,Dallas,Mavericks,West,60,22,0.732,Dallas Mavericks,DAL
+2002,1610612750,Minnesota,Timberwolves,West,51,31,0.622,Minnesota Timberwolves,MIN
+2002,1610612755,Philadelphia,76ers,East,48,34,0.585,Philadelphia 76ers,PHI
+2002,1610612747,Los Angeles,Lakers,West,50,32,0.61,Los Angeles Lakers,LAL
+2002,1610612740,New Orleans,Pelicans,East,47,35,0.573,New Orleans Pelicans,NOP
+2002,1610612738,Boston,Celtics,East,44,38,0.537,Boston Celtics,BOS
+2002,1610612757,Portland,Trail Blazers,West,50,32,0.61,Portland Trail Blazers,POR
+2002,1610612762,Utah,Jazz,West,47,35,0.573,Utah Jazz,UTA
+2002,1610612749,Milwaukee,Bucks,East,42,40,0.512,Milwaukee Bucks,MIL
+2002,1610612753,Orlando,Magic,East,42,40,0.512,Orlando Magic,ORL
+2002,1610612756,Phoenix,Suns,West,44,38,0.537,Phoenix Suns,PHX
+2002,1610612745,Houston,Rockets,West,43,39,0.524,Houston Rockets,HOU
+2002,1610612764,Washington,Wizards,East,37,45,0.451,Washington Wizards,WAS
+2002,1610612760,Oklahoma,Thunder,West,40,42,0.488,Oklahoma Thunder,OKC
+2002,1610612752,New York,Knicks,East,37,45,0.451,New York Knicks,NYK
+2002,1610612744,Golden State,Warriors,West,38,44,0.463,Golden State Warriors,GSW
+2002,1610612737,Atlanta,Hawks,East,35,47,0.427,Atlanta Hawks,ATL
+2002,1610612741,Chicago,Bulls,East,30,52,0.366,Chicago Bulls,CHI
+2002,1610612763,Memphis,Grizzlies,West,28,54,0.341,Memphis Grizzlies,MEM
+2002,1610612746,Los Angeles,Clippers,West,27,55,0.329,Los Angeles Clippers,LAC
+2002,1610612748,Miami,Heat,East,25,57,0.305,Miami Heat,MIA
+2002,1610612761,Toronto,Raptors,East,24,58,0.293,Toronto Raptors,TOR
+2002,1610612743,Denver,Nuggets,West,17,65,0.207,Denver Nuggets,DEN
+2002,1610612739,Cleveland,Cavaliers,East,17,65,0.207,Cleveland Cavaliers,CLE
+2004,1610612756,Phoenix,Suns,West,62,20,0.756,Phoenix Suns,PHX
+2004,1610612748,Miami,Heat,East,59,23,0.72,Miami Heat,MIA
+2004,1610612759,San Antonio,Spurs,West,59,23,0.72,San Antonio Spurs,SAS
+2004,1610612765,Detroit,Pistons,East,54,28,0.659,Detroit Pistons,DET
+2004,1610612741,Chicago,Bulls,East,47,35,0.573,Chicago Bulls,CHI
+2004,1610612742,Dallas,Mavericks,West,58,24,0.707,Dallas Mavericks,DAL
+2004,1610612738,Boston,Celtics,East,45,37,0.549,Boston Celtics,BOS
+2004,1610612760,Oklahoma,Thunder,West,52,30,0.634,Oklahoma Thunder,OKC
+2004,1610612745,Houston,Rockets,West,51,31,0.622,Houston Rockets,HOU
+2004,1610612764,Washington,Wizards,East,45,37,0.549,Washington Wizards,WAS
+2004,1610612758,Sacramento,Kings,West,50,32,0.61,Sacramento Kings,SAC
+2004,1610612754,Indiana,Pacers,East,44,38,0.537,Indiana Pacers,IND
+2004,1610612743,Denver,Nuggets,West,49,33,0.598,Denver Nuggets,DEN
+2004,1610612755,Philadelphia,76ers,East,43,39,0.524,Philadelphia 76ers,PHI
+2004,1610612751,Brooklyn,Nets,East,42,40,0.512,Brooklyn Nets,BKN
+2004,1610612763,Memphis,Grizzlies,West,45,37,0.549,Memphis Grizzlies,MEM
+2004,1610612739,Cleveland,Cavaliers,East,42,40,0.512,Cleveland Cavaliers,CLE
+2004,1610612750,Minnesota,Timberwolves,West,44,38,0.537,Minnesota Timberwolves,MIN
+2004,1610612753,Orlando,Magic,East,36,46,0.439,Orlando Magic,ORL
+2004,1610612746,Los Angeles,Clippers,West,37,45,0.451,Los Angeles Clippers,LAC
+2004,1610612747,Los Angeles,Lakers,West,34,48,0.415,Los Angeles Lakers,LAL
+2004,1610612761,Toronto,Raptors,East,33,49,0.402,Toronto Raptors,TOR
+2004,1610612752,New York,Knicks,East,33,49,0.402,New York Knicks,NYK
+2004,1610612744,Golden State,Warriors,West,34,48,0.415,Golden State Warriors,GSW
+2004,1610612757,Portland,Trail Blazers,West,27,55,0.329,Portland Trail Blazers,POR
+2004,1610612749,Milwaukee,Bucks,East,30,52,0.366,Milwaukee Bucks,MIL
+2004,1610612762,Utah,Jazz,West,26,56,0.317,Utah Jazz,UTA
+2004,1610612766,Charlotte,Hornets,East,18,64,0.22,Charlotte Hornets,CHA
+2004,1610612737,Atlanta,Hawks,East,13,69,0.159,Atlanta Hawks,ATL
+2004,1610612740,New Orleans,Pelicans,West,18,64,0.22,New Orleans Pelicans,NOP
+2006,1610612742,Dallas,Mavericks,West,67,15,0.817,Dallas Mavericks,DAL
+2006,1610612765,Detroit,Pistons,East,53,29,0.646,Detroit Pistons,DET
+2006,1610612739,Cleveland,Cavaliers,East,50,32,0.61,Cleveland Cavaliers,CLE
+2006,1610612756,Phoenix,Suns,West,61,21,0.744,Phoenix Suns,PHX
+2006,1610612761,Toronto,Raptors,East,47,35,0.573,Toronto Raptors,TOR
+2006,1610612759,San Antonio,Spurs,West,58,24,0.707,San Antonio Spurs,SAS
+2006,1610612748,Miami,Heat,East,44,38,0.537,Miami Heat,MIA
+2006,1610612762,Utah,Jazz,West,51,31,0.622,Utah Jazz,UTA
+2006,1610612745,Houston,Rockets,West,52,30,0.634,Houston Rockets,HOU
+2006,1610612741,Chicago,Bulls,East,49,33,0.598,Chicago Bulls,CHI
+2006,1610612743,Denver,Nuggets,West,45,37,0.549,Denver Nuggets,DEN
+2006,1610612751,Brooklyn,Nets,East,41,41,0.5,Brooklyn Nets,BKN
+2006,1610612747,Los Angeles,Lakers,West,42,40,0.512,Los Angeles Lakers,LAL
+2006,1610612764,Washington,Wizards,East,41,41,0.5,Washington Wizards,WAS
+2006,1610612753,Orlando,Magic,East,40,42,0.488,Orlando Magic,ORL
+2006,1610612744,Golden State,Warriors,West,42,40,0.512,Golden State Warriors,GSW
+2006,1610612754,Indiana,Pacers,East,35,47,0.427,Indiana Pacers,IND
+2006,1610612746,Los Angeles,Clippers,West,40,42,0.488,Los Angeles Clippers,LAC
+2006,1610612755,Philadelphia,76ers,East,35,47,0.427,Philadelphia 76ers,PHI
+2006,1610612740,New Orleans/Oklahoma City,Hornets,West,39,43,0.476,New Orleans/Oklahoma City Hornets,
+2006,1610612758,Sacramento,Kings,West,33,49,0.402,Sacramento Kings,SAC
+2006,1610612766,Charlotte,Hornets,East,33,49,0.402,Charlotte Hornets,CHA
+2006,1610612757,Portland,Trail Blazers,West,32,50,0.39,Portland Trail Blazers,POR
+2006,1610612752,New York,Knicks,East,33,49,0.402,New York Knicks,NYK
+2006,1610612750,Minnesota,Timberwolves,West,32,50,0.39,Minnesota Timberwolves,MIN
+2006,1610612737,Atlanta,Hawks,East,30,52,0.366,Atlanta Hawks,ATL
+2006,1610612760,Oklahoma,Thunder,West,31,51,0.378,Oklahoma Thunder,OKC
+2006,1610612749,Milwaukee,Bucks,East,28,54,0.341,Milwaukee Bucks,MIL
+2006,1610612738,Boston,Celtics,East,24,58,0.293,Boston Celtics,BOS
+2006,1610612763,Memphis,Grizzlies,West,22,60,0.268,Memphis Grizzlies,MEM
+2008,1610612739,Cleveland,Cavaliers,East,66,16,0.805,Cleveland Cavaliers,CLE
+2008,1610612747,Los Angeles,Lakers,West,65,17,0.793,Los Angeles Lakers,LAL
+2008,1610612743,Denver,Nuggets,West,54,28,0.659,Denver Nuggets,DEN
+2008,1610612738,Boston,Celtics,East,62,20,0.756,Boston Celtics,BOS
+2008,1610612759,San Antonio,Spurs,West,54,28,0.659,San Antonio Spurs,SAS
+2008,1610612753,Orlando,Magic,East,59,23,0.72,Orlando Magic,ORL
+2008,1610612737,Atlanta,Hawks,East,47,35,0.573,Atlanta Hawks,ATL
+2008,1610612757,Portland,Trail Blazers,West,54,28,0.659,Portland Trail Blazers,POR
+2008,1610612748,Miami,Heat,East,43,39,0.524,Miami Heat,MIA
+2008,1610612745,Houston,Rockets,West,53,29,0.646,Houston Rockets,HOU
+2008,1610612742,Dallas,Mavericks,West,50,32,0.61,Dallas Mavericks,DAL
+2008,1610612755,Philadelphia,76ers,East,41,41,0.5,Philadelphia 76ers,PHI
+2008,1610612741,Chicago,Bulls,East,41,41,0.5,Chicago Bulls,CHI
+2008,1610612740,New Orleans,Pelicans,West,49,33,0.598,New Orleans Pelicans,NOP
+2008,1610612765,Detroit,Pistons,East,39,43,0.476,Detroit Pistons,DET
+2008,1610612762,Utah,Jazz,West,48,34,0.585,Utah Jazz,UTA
+2008,1610612756,Phoenix,Suns,West,46,36,0.561,Phoenix Suns,PHX
+2008,1610612754,Indiana,Pacers,East,36,46,0.439,Indiana Pacers,IND
+2008,1610612766,Charlotte,Hornets,East,35,47,0.427,Charlotte Hornets,CHA
+2008,1610612744,Golden State,Warriors,West,29,53,0.354,Golden State Warriors,GSW
+2008,1610612750,Minnesota,Timberwolves,West,24,58,0.293,Minnesota Timberwolves,MIN
+2008,1610612751,Brooklyn,Nets,East,34,48,0.415,Brooklyn Nets,BKN
+2008,1610612749,Milwaukee,Bucks,East,34,48,0.415,Milwaukee Bucks,MIL
+2008,1610612763,Memphis,Grizzlies,West,24,58,0.293,Memphis Grizzlies,MEM
+2008,1610612760,Oklahoma City,Thunder,West,23,59,0.28,Oklahoma City Thunder,OKC
+2008,1610612761,Toronto,Raptors,East,33,49,0.402,Toronto Raptors,TOR
+2008,1610612746,Los Angeles,Clippers,West,19,63,0.232,Los Angeles Clippers,LAC
+2008,1610612752,New York,Knicks,East,32,50,0.39,New York Knicks,NYK
+2008,1610612764,Washington,Wizards,East,19,63,0.232,Washington Wizards,WAS
+2008,1610612758,Sacramento,Kings,West,17,65,0.207,Sacramento Kings,SAC
+2010,1610612759,San Antonio,Spurs,West,61,21,0.744,San Antonio Spurs,SAS
+2010,1610612741,Chicago,Bulls,East,62,20,0.756,Chicago Bulls,CHI
+2010,1610612747,Los Angeles,Lakers,West,57,25,0.695,Los Angeles Lakers,LAL
+2010,1610612748,Miami,Heat,East,58,24,0.707,Miami Heat,MIA
+2010,1610612742,Dallas,Mavericks,West,57,25,0.695,Dallas Mavericks,DAL
+2010,1610612738,Boston,Celtics,East,56,26,0.683,Boston Celtics,BOS
+2010,1610612753,Orlando,Magic,East,52,30,0.634,Orlando Magic,ORL
+2010,1610612760,Oklahoma City,Thunder,West,55,27,0.671,Oklahoma City Thunder,OKC
+2010,1610612743,Denver,Nuggets,West,50,32,0.61,Denver Nuggets,DEN
+2010,1610612737,Atlanta,Hawks,East,44,38,0.537,Atlanta Hawks,ATL
+2010,1610612757,Portland,Trail Blazers,West,48,34,0.585,Portland Trail Blazers,POR
+2010,1610612752,New York,Knicks,East,42,40,0.512,New York Knicks,NYK
+2010,1610612740,New Orleans,Pelicans,West,46,36,0.561,New Orleans Pelicans,NOP
+2010,1610612755,Philadelphia,76ers,East,41,41,0.5,Philadelphia 76ers,PHI
+2010,1610612763,Memphis,Grizzlies,West,46,36,0.561,Memphis Grizzlies,MEM
+2010,1610612754,Indiana,Pacers,East,37,45,0.451,Indiana Pacers,IND
+2010,1610612745,Houston,Rockets,West,43,39,0.524,Houston Rockets,HOU
+2010,1610612749,Milwaukee,Bucks,East,35,47,0.427,Milwaukee Bucks,MIL
+2010,1610612766,Charlotte,Hornets,East,34,48,0.415,Charlotte Hornets,CHA
+2010,1610612756,Phoenix,Suns,West,40,42,0.488,Phoenix Suns,PHX
+2010,1610612765,Detroit,Pistons,East,30,52,0.366,Detroit Pistons,DET
+2010,1610612762,Utah,Jazz,West,39,43,0.476,Utah Jazz,UTA
+2010,1610612744,Golden State,Warriors,West,36,46,0.439,Golden State Warriors,GSW
+2010,1610612751,Brooklyn,Nets,East,24,58,0.293,Brooklyn Nets,BKN
+2010,1610612764,Washington,Wizards,East,23,59,0.28,Washington Wizards,WAS
+2010,1610612746,Los Angeles,Clippers,West,32,50,0.39,Los Angeles Clippers,LAC
+2010,1610612758,Sacramento,Kings,West,24,58,0.293,Sacramento Kings,SAC
+2010,1610612761,Toronto,Raptors,East,22,60,0.268,Toronto Raptors,TOR
+2010,1610612739,Cleveland,Cavaliers,East,19,63,0.232,Cleveland Cavaliers,CLE
+2010,1610612750,Minnesota,Timberwolves,West,17,65,0.207,Minnesota Timberwolves,MIN
+2012,1610612748,Miami,Heat,East,66,16,0.805,Miami Heat,MIA
+2012,1610612760,Oklahoma City,Thunder,West,60,22,0.732,Oklahoma City Thunder,OKC
+2012,1610612752,New York,Knicks,East,54,28,0.659,New York Knicks,NYK
+2012,1610612759,San Antonio,Spurs,West,58,24,0.707,San Antonio Spurs,SAS
+2012,1610612754,Indiana,Pacers,East,49,32,0.605,Indiana Pacers,IND
+2012,1610612743,Denver,Nuggets,West,57,25,0.695,Denver Nuggets,DEN
+2012,1610612751,Brooklyn,Nets,East,49,33,0.598,Brooklyn Nets,BKN
+2012,1610612746,Los Angeles,Clippers,West,56,26,0.683,Los Angeles Clippers,LAC
+2012,1610612763,Memphis,Grizzlies,West,56,26,0.683,Memphis Grizzlies,MEM
+2012,1610612741,Chicago,Bulls,East,45,37,0.549,Chicago Bulls,CHI
+2012,1610612737,Atlanta,Hawks,East,44,38,0.537,Atlanta Hawks,ATL
+2012,1610612744,Golden State,Warriors,West,47,35,0.573,Golden State Warriors,GSW
+2012,1610612747,Los Angeles,Lakers,West,45,37,0.549,Los Angeles Lakers,LAL
+2012,1610612738,Boston,Celtics,East,41,40,0.506,Boston Celtics,BOS
+2012,1610612745,Houston,Rockets,West,45,37,0.549,Houston Rockets,HOU
+2012,1610612749,Milwaukee,Bucks,East,38,44,0.463,Milwaukee Bucks,MIL
+2012,1610612755,Philadelphia,76ers,East,34,48,0.415,Philadelphia 76ers,PHI
+2012,1610612762,Utah,Jazz,West,43,39,0.524,Utah Jazz,UTA
+2012,1610612742,Dallas,Mavericks,West,41,41,0.5,Dallas Mavericks,DAL
+2012,1610612761,Toronto,Raptors,East,34,48,0.415,Toronto Raptors,TOR
+2012,1610612757,Portland,Trail Blazers,West,33,49,0.402,Portland Trail Blazers,POR
+2012,1610612765,Detroit,Pistons,East,29,53,0.354,Detroit Pistons,DET
+2012,1610612764,Washington,Wizards,East,29,53,0.354,Washington Wizards,WAS
+2012,1610612750,Minnesota,Timberwolves,West,31,51,0.378,Minnesota Timberwolves,MIN
+2012,1610612758,Sacramento,Kings,West,28,54,0.341,Sacramento Kings,SAC
+2012,1610612739,Cleveland,Cavaliers,East,24,58,0.293,Cleveland Cavaliers,CLE
+2012,1610612740,New Orleans,Pelicans,West,27,55,0.329,New Orleans Pelicans,NOP
+2012,1610612766,Charlotte,Hornets,East,21,61,0.256,Charlotte Hornets,CHA
+2012,1610612753,Orlando,Magic,East,20,62,0.244,Orlando Magic,ORL
+2012,1610612756,Phoenix,Suns,West,25,57,0.305,Phoenix Suns,PHX
+2014,1610612737,Atlanta,Hawks,East,60,22,0.732,Atlanta Hawks,ATL
+2014,1610612744,Golden State,Warriors,West,67,15,0.817,Golden State Warriors,GSW
+2014,1610612739,Cleveland,Cavaliers,East,53,29,0.646,Cleveland Cavaliers,CLE
+2014,1610612745,Houston,Rockets,West,56,26,0.683,Houston Rockets,HOU
+2014,1610612746,Los Angeles,Clippers,West,56,26,0.683,Los Angeles Clippers,LAC
+2014,1610612741,Chicago,Bulls,East,50,32,0.61,Chicago Bulls,CHI
+2014,1610612761,Toronto,Raptors,East,49,33,0.598,Toronto Raptors,TOR
+2014,1610612757,Portland,Trail Blazers,West,51,31,0.622,Portland Trail Blazers,POR
+2014,1610612764,Washington,Wizards,East,46,36,0.561,Washington Wizards,WAS
+2014,1610612763,Memphis,Grizzlies,West,55,27,0.671,Memphis Grizzlies,MEM
+2014,1610612749,Milwaukee,Bucks,East,41,41,0.5,Milwaukee Bucks,MIL
+2014,1610612759,San Antonio,Spurs,West,55,27,0.671,San Antonio Spurs,SAS
+2014,1610612742,Dallas,Mavericks,West,50,32,0.61,Dallas Mavericks,DAL
+2014,1610612738,Boston,Celtics,East,40,42,0.488,Boston Celtics,BOS
+2014,1610612740,New Orleans,Pelicans,West,45,37,0.549,New Orleans Pelicans,NOP
+2014,1610612751,Brooklyn,Nets,East,38,44,0.463,Brooklyn Nets,BKN
+2014,1610612754,Indiana,Pacers,East,38,44,0.463,Indiana Pacers,IND
+2014,1610612760,Oklahoma City,Thunder,West,45,37,0.549,Oklahoma City Thunder,OKC
+2014,1610612748,Miami,Heat,East,37,45,0.451,Miami Heat,MIA
+2014,1610612756,Phoenix,Suns,West,39,43,0.476,Phoenix Suns,PHX
+2014,1610612766,Charlotte,Hornets,East,33,49,0.402,Charlotte Hornets,CHA
+2014,1610612762,Utah,Jazz,West,38,44,0.463,Utah Jazz,UTA
+2014,1610612765,Detroit,Pistons,East,32,50,0.39,Detroit Pistons,DET
+2014,1610612743,Denver,Nuggets,West,30,52,0.366,Denver Nuggets,DEN
+2014,1610612758,Sacramento,Kings,West,29,53,0.354,Sacramento Kings,SAC
+2014,1610612753,Orlando,Magic,East,25,57,0.305,Orlando Magic,ORL
+2014,1610612747,Los Angeles,Lakers,West,21,61,0.256,Los Angeles Lakers,LAL
+2014,1610612755,Philadelphia,76ers,East,18,64,0.22,Philadelphia 76ers,PHI
+2014,1610612752,New York,Knicks,East,17,65,0.207,New York Knicks,NYK
+2014,1610612750,Minnesota,Timberwolves,West,16,66,0.195,Minnesota Timberwolves,MIN
+2016,1610612744,Golden State,Warriors,West,67,15,0.817,Golden State Warriors,GSW
+2016,1610612738,Boston,Celtics,East,53,29,0.646,Boston Celtics,BOS
+2016,1610612759,San Antonio,Spurs,West,61,21,0.744,San Antonio Spurs,SAS
+2016,1610612739,Cleveland,Cavaliers,East,51,31,0.622,Cleveland Cavaliers,CLE
+2016,1610612761,Toronto,Raptors,East,51,31,0.622,Toronto Raptors,TOR
+2016,1610612745,Houston,Rockets,West,55,27,0.671,Houston Rockets,HOU
+2016,1610612746,LA,Clippers,West,51,31,0.622,LA Clippers,LAC
+2016,1610612764,Washington,Wizards,East,49,33,0.598,Washington Wizards,WAS
+2016,1610612737,Atlanta,Hawks,East,43,39,0.524,Atlanta Hawks,ATL
+2016,1610612762,Utah,Jazz,West,51,31,0.622,Utah Jazz,UTA
+2016,1610612760,Oklahoma City,Thunder,West,47,35,0.573,Oklahoma City Thunder,OKC
+2016,1610612749,Milwaukee,Bucks,East,42,40,0.512,Milwaukee Bucks,MIL
+2016,1610612754,Indiana,Pacers,East,42,40,0.512,Indiana Pacers,IND
+2016,1610612763,Memphis,Grizzlies,West,43,39,0.524,Memphis Grizzlies,MEM
+2016,1610612757,Portland,Trail Blazers,West,41,41,0.5,Portland Trail Blazers,POR
+2016,1610612741,Chicago,Bulls,East,41,41,0.5,Chicago Bulls,CHI
+2016,1610612743,Denver,Nuggets,West,40,42,0.488,Denver Nuggets,DEN
+2016,1610612748,Miami,Heat,East,41,41,0.5,Miami Heat,MIA
+2016,1610612740,New Orleans,Pelicans,West,34,48,0.415,New Orleans Pelicans,NOP
+2016,1610612765,Detroit,Pistons,East,37,45,0.451,Detroit Pistons,DET
+2016,1610612766,Charlotte,Hornets,East,36,46,0.439,Charlotte Hornets,CHA
+2016,1610612742,Dallas,Mavericks,West,33,49,0.402,Dallas Mavericks,DAL
+2016,1610612758,Sacramento,Kings,West,32,50,0.39,Sacramento Kings,SAC
+2016,1610612752,New York,Knicks,East,31,51,0.378,New York Knicks,NYK
+2016,1610612753,Orlando,Magic,East,29,53,0.354,Orlando Magic,ORL
+2016,1610612750,Minnesota,Timberwolves,West,31,51,0.378,Minnesota Timberwolves,MIN
+2016,1610612755,Philadelphia,76ers,East,28,54,0.341,Philadelphia 76ers,PHI
+2016,1610612747,Los Angeles,Lakers,West,26,56,0.317,Los Angeles Lakers,LAL
+2016,1610612756,Phoenix,Suns,West,24,58,0.293,Phoenix Suns,PHX
+2016,1610612751,Brooklyn,Nets,East,20,62,0.244,Brooklyn Nets,BKN
+2018,1610612744,Golden State,Warriors,West,57,25,0.695,Golden State Warriors,GSW
+2018,1610612749,Milwaukee,Bucks,East,60,22,0.732,Milwaukee Bucks,MIL
+2018,1610612743,Denver,Nuggets,West,54,28,0.659,Denver Nuggets,DEN
+2018,1610612761,Toronto,Raptors,East,58,24,0.707,Toronto Raptors,TOR
+2018,1610612757,Portland,Trail Blazers,West,53,29,0.646,Portland Trail Blazers,POR
+2018,1610612755,Philadelphia,76ers,East,51,31,0.622,Philadelphia 76ers,PHI
+2018,1610612745,Houston,Rockets,West,53,29,0.646,Houston Rockets,HOU
+2018,1610612738,Boston,Celtics,East,49,33,0.598,Boston Celtics,BOS
+2018,1610612754,Indiana,Pacers,East,48,34,0.585,Indiana Pacers,IND
+2018,1610612762,Utah,Jazz,West,50,32,0.61,Utah Jazz,UTA
+2018,1610612751,Brooklyn,Nets,East,42,40,0.512,Brooklyn Nets,BKN
+2018,1610612760,Oklahoma City,Thunder,West,49,33,0.598,Oklahoma City Thunder,OKC
+2018,1610612759,San Antonio,Spurs,West,48,34,0.585,San Antonio Spurs,SAS
+2018,1610612753,Orlando,Magic,East,42,40,0.512,Orlando Magic,ORL
+2018,1610612765,Detroit,Pistons,East,41,41,0.5,Detroit Pistons,DET
+2018,1610612746,LA,Clippers,West,48,34,0.585,LA Clippers,LAC
+2018,1610612766,Charlotte,Hornets,East,39,43,0.476,Charlotte Hornets,CHA
+2018,1610612758,Sacramento,Kings,West,39,43,0.476,Sacramento Kings,SAC
+2018,1610612748,Miami,Heat,East,39,43,0.476,Miami Heat,MIA
+2018,1610612747,Los Angeles,Lakers,West,37,45,0.451,Los Angeles Lakers,LAL
+2018,1610612764,Washington,Wizards,East,32,50,0.39,Washington Wizards,WAS
+2018,1610612750,Minnesota,Timberwolves,West,36,46,0.439,Minnesota Timberwolves,MIN
+2018,1610612737,Atlanta,Hawks,East,29,53,0.354,Atlanta Hawks,ATL
+2018,1610612763,Memphis,Grizzlies,West,33,49,0.402,Memphis Grizzlies,MEM
+2018,1610612740,New Orleans,Pelicans,West,33,49,0.402,New Orleans Pelicans,NOP
+2018,1610612741,Chicago,Bulls,East,22,60,0.268,Chicago Bulls,CHI
+2018,1610612742,Dallas,Mavericks,West,33,49,0.402,Dallas Mavericks,DAL
+2018,1610612739,Cleveland,Cavaliers,East,19,63,0.232,Cleveland Cavaliers,CLE
+2018,1610612756,Phoenix,Suns,West,19,63,0.232,Phoenix Suns,PHX
+2018,1610612752,New York,Knicks,East,17,65,0.207,New York Knicks,NYK
+2020,1610612755,Philadelphia,76ers,East,49,23,0.681,Philadelphia 76ers,PHI
+2020,1610612762,Utah,Jazz,West,52,20,0.722,Utah Jazz,UTA
+2020,1610612751,Brooklyn,Nets,East,48,24,0.667,Brooklyn Nets,BKN
+2020,1610612756,Phoenix,Suns,West,51,21,0.708,Phoenix Suns,PHX
+2020,1610612743,Denver,Nuggets,West,47,25,0.653,Denver Nuggets,DEN
+2020,1610612749,Milwaukee,Bucks,East,46,26,0.639,Milwaukee Bucks,MIL
+2020,1610612752,New York,Knicks,East,41,31,0.569,New York Knicks,NYK
+2020,1610612746,LA,Clippers,West,47,25,0.653,LA Clippers,LAC
+2020,1610612737,Atlanta,Hawks,East,41,31,0.569,Atlanta Hawks,ATL
+2020,1610612742,Dallas,Mavericks,West,42,30,0.583,Dallas Mavericks,DAL
+2020,1610612757,Portland,Trail Blazers,West,42,30,0.583,Portland Trail Blazers,POR
+2020,1610612748,Miami,Heat,East,40,32,0.556,Miami Heat,MIA
+2020,1610612738,Boston,Celtics,East,36,36,0.5,Boston Celtics,BOS
+2020,1610612747,Los Angeles,Lakers,West,42,30,0.583,Los Angeles Lakers,LAL
+2020,1610612763,Memphis,Grizzlies,West,38,34,0.528,Memphis Grizzlies,MEM
+2020,1610612764,Washington,Wizards,East,34,38,0.472,Washington Wizards,WAS
+2020,1610612744,Golden State,Warriors,West,39,33,0.542,Golden State Warriors,GSW
+2020,1610612754,Indiana,Pacers,East,34,38,0.472,Indiana Pacers,IND
+2020,1610612759,San Antonio,Spurs,West,33,39,0.458,San Antonio Spurs,SAS
+2020,1610612766,Charlotte,Hornets,East,33,39,0.458,Charlotte Hornets,CHA
+2020,1610612740,New Orleans,Pelicans,West,31,41,0.431,New Orleans Pelicans,NOP
+2020,1610612741,Chicago,Bulls,East,31,41,0.431,Chicago Bulls,CHI
+2020,1610612758,Sacramento,Kings,West,31,41,0.431,Sacramento Kings,SAC
+2020,1610612761,Toronto,Raptors,East,27,45,0.375,Toronto Raptors,TOR
+2020,1610612750,Minnesota,Timberwolves,West,23,49,0.319,Minnesota Timberwolves,MIN
+2020,1610612739,Cleveland,Cavaliers,East,22,50,0.306,Cleveland Cavaliers,CLE
+2020,1610612753,Orlando,Magic,East,21,51,0.292,Orlando Magic,ORL
+2020,1610612760,Oklahoma City,Thunder,West,22,50,0.306,Oklahoma City Thunder,OKC
+2020,1610612765,Detroit,Pistons,East,20,52,0.278,Detroit Pistons,DET
+2020,1610612745,Houston,Rockets,West,17,55,0.236,Houston Rockets,HOU
+2022,1610612749,Milwaukee,Bucks,East,58,24,0.707,Milwaukee Bucks,MIL
+2022,1610612743,Denver,Nuggets,West,53,29,0.646,Denver Nuggets,DEN
+2022,1610612738,Boston,Celtics,East,57,25,0.695,Boston Celtics,BOS
+2022,1610612763,Memphis,Grizzlies,West,51,31,0.622,Memphis Grizzlies,MEM
+2022,1610612755,Philadelphia,76ers,East,54,28,0.659,Philadelphia 76ers,PHI
+2022,1610612758,Sacramento,Kings,West,48,34,0.585,Sacramento Kings,SAC
+2022,1610612756,Phoenix,Suns,West,45,37,0.549,Phoenix Suns,PHX
+2022,1610612739,Cleveland,Cavaliers,East,51,31,0.622,Cleveland Cavaliers,CLE
+2022,1610612746,LA,Clippers,West,44,38,0.537,LA Clippers,LAC
+2022,1610612752,New York,Knicks,East,47,35,0.573,New York Knicks,NYK
+2022,1610612744,Golden State,Warriors,West,44,38,0.537,Golden State Warriors,GSW
+2022,1610612751,Brooklyn,Nets,East,45,37,0.549,Brooklyn Nets,BKN
+2022,1610612748,Miami,Heat,East,44,38,0.537,Miami Heat,MIA
+2022,1610612747,Los Angeles,Lakers,West,43,39,0.524,Los Angeles Lakers,LAL
+2022,1610612737,Atlanta,Hawks,East,41,41,0.5,Atlanta Hawks,ATL
+2022,1610612750,Minnesota,Timberwolves,West,42,40,0.512,Minnesota Timberwolves,MIN
+2022,1610612740,New Orleans,Pelicans,West,42,40,0.512,New Orleans Pelicans,NOP
+2022,1610612761,Toronto,Raptors,East,41,41,0.5,Toronto Raptors,TOR
+2022,1610612741,Chicago,Bulls,East,40,42,0.488,Chicago Bulls,CHI
+2022,1610612760,Oklahoma City,Thunder,West,40,42,0.488,Oklahoma City Thunder,OKC
+2022,1610612754,Indiana,Pacers,East,35,47,0.427,Indiana Pacers,IND
+2022,1610612742,Dallas,Mavericks,West,38,44,0.463,Dallas Mavericks,DAL
+2022,1610612762,Utah,Jazz,West,37,45,0.451,Utah Jazz,UTA
+2022,1610612764,Washington,Wizards,East,35,47,0.427,Washington Wizards,WAS
+2022,1610612757,Portland,Trail Blazers,West,33,49,0.402,Portland Trail Blazers,POR
+2022,1610612753,Orlando,Magic,East,34,48,0.415,Orlando Magic,ORL
+2022,1610612766,Charlotte,Hornets,East,27,55,0.329,Charlotte Hornets,CHA
+2022,1610612745,Houston,Rockets,West,22,60,0.268,Houston Rockets,HOU
+2022,1610612759,San Antonio,Spurs,West,22,60,0.268,San Antonio Spurs,SAS
+2022,1610612765,Detroit,Pistons,East,17,65,0.207,Detroit Pistons,DET
+2024,1610612739,Cleveland,Cavaliers,East,64,18,0.78,Cleveland Cavaliers,CLE
+2024,1610612760,Oklahoma City,Thunder,West,68,14,0.829,Oklahoma City Thunder,OKC
+2024,1610612738,Boston,Celtics,East,61,21,0.744,Boston Celtics,BOS
+2024,1610612745,Houston,Rockets,West,52,30,0.634,Houston Rockets,HOU
+2024,1610612747,Los Angeles,Lakers,West,50,32,0.61,Los Angeles Lakers,LAL
+2024,1610612752,New York,Knicks,East,51,31,0.622,New York Knicks,NYK
+2024,1610612754,Indiana,Pacers,East,50,32,0.61,Indiana Pacers,IND
+2024,1610612743,Denver,Nuggets,West,50,32,0.61,Denver Nuggets,DEN
+2024,1610612746,LA,Clippers,West,50,32,0.61,LA Clippers,LAC
+2024,1610612749,Milwaukee,Bucks,East,48,34,0.585,Milwaukee Bucks,MIL
+2024,1610612765,Detroit,Pistons,East,44,38,0.537,Detroit Pistons,DET
+2024,1610612750,Minnesota,Timberwolves,West,49,33,0.598,Minnesota Timberwolves,MIN
+2024,1610612753,Orlando,Magic,East,41,41,0.5,Orlando Magic,ORL
+2024,1610612744,Golden State,Warriors,West,48,34,0.585,Golden State Warriors,GSW
+2024,1610612763,Memphis,Grizzlies,West,48,34,0.585,Memphis Grizzlies,MEM
+2024,1610612737,Atlanta,Hawks,East,40,42,0.488,Atlanta Hawks,ATL
+2024,1610612741,Chicago,Bulls,East,39,43,0.476,Chicago Bulls,CHI
+2024,1610612758,Sacramento,Kings,West,40,42,0.488,Sacramento Kings,SAC
+2024,1610612742,Dallas,Mavericks,West,39,43,0.476,Dallas Mavericks,DAL
+2024,1610612748,Miami,Heat,East,37,45,0.451,Miami Heat,MIA
+2024,1610612756,Phoenix,Suns,West,36,46,0.439,Phoenix Suns,PHX
+2024,1610612761,Toronto,Raptors,East,30,52,0.366,Toronto Raptors,TOR
+2024,1610612757,Portland,Trail Blazers,West,36,46,0.439,Portland Trail Blazers,POR
+2024,1610612751,Brooklyn,Nets,East,26,56,0.317,Brooklyn Nets,BKN
+2024,1610612755,Philadelphia,76ers,East,24,58,0.293,Philadelphia 76ers,PHI
+2024,1610612759,San Antonio,Spurs,West,34,48,0.415,San Antonio Spurs,SAS
+2024,1610612766,Charlotte,Hornets,East,19,63,0.232,Charlotte Hornets,CHA
+2024,1610612740,New Orleans,Pelicans,West,21,61,0.256,New Orleans Pelicans,NOP
+2024,1610612762,Utah,Jazz,West,17,65,0.207,Utah Jazz,UTA
+2024,1610612764,Washington,Wizards,East,18,64,0.22,Washington Wizards,WAS
