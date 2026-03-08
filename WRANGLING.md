@@ -132,80 +132,72 @@ If all three rows were included, his season would effectively be counted multipl
 
 ### How this was handled
 
-The wrangling scripts were designed to recognize that values such as 2TM and 3TM are not real team abbreviations. When team-level aggregation was performed, only rows with valid three-letter NBA franchise abbreviations were kept, while multi-team combined tags were excluded.
+The wrangling scripts were designed to recognize that values such as `2TM` and `3TM` are not real team abbreviations. When team-level aggregation was performed, only rows with valid three-letter NBA franchise abbreviations were kept, while multi-team combined tags were excluded.
 
 This was especially important in the creation of:
 
-team-level PF/C averages
-
-team-level PF/C totals
-
-team-level comparisons with win-loss records
+- team-level PF/C averages  
+- team-level PF/C totals  
+- team-level comparisons with win-loss records  
 
 Without this step, traded players would have caused duplicate counting and invalid team summaries.
 
-4. Historical franchise changes and abbreviation inconsistencies
+---
+
+## 4. Historical Franchise Changes and Abbreviation Inconsistencies
 
 A major challenge in working with 30 years of NBA data is that teams do not remain static over time. Across the period covered in this project, several franchises changed:
 
-city
-
-team name
-
-abbreviation
+- city  
+- team name  
+- abbreviation  
 
 This meant the same franchise could appear under different labels depending on the season.
 
-Examples of issues encountered
-Abbreviation changes
+### Examples of Issues Encountered
 
-WSB → WSH
+#### Abbreviation Changes
 
-VAN → MEM
+- `WSB` → `WSH`
+- `VAN` → `MEM`
+- `SEA` → `OKC`
+- `NJN` → `BKN`
+- `CHH / CHB` → `CHA`
+- `NOH` → `NOP`
 
-SEA → OKC
+#### City Changes
 
-NJN → BKN
+- Vancouver → Memphis  
+- Seattle → Oklahoma City  
+- New Jersey → Brooklyn  
 
-CHH / CHB → CHA
+#### Team Name Changes
 
-NOH → NOP
+- Bullets → Wizards  
+- SuperSonics → Thunder  
+- Bobcats → Hornets  
+- Hornets (New Orleans context) → Pelicans  
 
-City changes
+---
 
-Vancouver → Memphis
-
-Seattle → Oklahoma City
-
-New Jersey → Brooklyn
-
-Team name changes
-
-Bullets → Wizards
-
-SuperSonics → Thunder
-
-Bobcats → Hornets
-
-Hornets (New Orleans context) → Pelicans
-
-Why this mattered
+### Why This Mattered
 
 If these differences were left unresolved, several problems would occur:
 
-the same franchise would be treated as different teams in different years
+- the same franchise would be treated as different teams in different years  
+- team-level trends would be split across historical labels  
+- summary datasets would not merge cleanly with team success data  
+- visualizations would incorrectly show separate entities rather than one continuous franchise  
 
-team-level trends would be split across historical labels
+---
 
-summary datasets would not merge cleanly with team success data
-
-visualizations would incorrectly show separate entities rather than one continuous franchise
-
-How this was handled
+### How This Was Handled
 
 Several scripts were written to standardize franchise identifiers across all datasets.
 
-For abbreviation fields, historical codes were replaced with consistent modern abbreviations. For example:
+For abbreviation fields, historical codes were replaced with consistent modern abbreviations.
+
+Example replacements:
 
 WSB -> WSH
 VAN -> MEM
@@ -215,257 +207,276 @@ CHH -> CHA
 CHB -> CHA
 NOH -> NOP
 
-For the team records dataset, additional transformations were made using TeamCity and TeamName:
+For the team records dataset, additional transformations were made using `TeamCity` and `TeamName`.
 
-Vancouver was changed to Memphis
+City adjustments:
 
-Seattle was changed to Oklahoma
+- Vancouver → Memphis  
+- Seattle → Oklahoma  
+- New Jersey → Brooklyn  
 
-New Jersey was changed to Brooklyn
+Team name adjustments:
 
-and:
+- Bullets → Wizards  
+- SuperSonics → Thunder  
+- Bobcats → Hornets  
 
-Bullets was changed to Wizards
+Additional logic was applied:
 
-SuperSonics was changed to Thunder
+if TeamCity = Charlotte → TeamName = Hornets
+if TeamCity = New Orleans → TeamName = Pelicans
 
-Bobcats was changed to Hornets
 
-Additional logic was also added:
-
-if TeamCity = Charlotte, then TeamName = Hornets
-
-if TeamCity = New Orleans, then TeamName = Pelicans
-
-These values were then merged into a single team field and matched to a standardized team abbreviation field (TeamAbv).
+These values were then merged into a single team field and matched to a standardized team abbreviation field (`TeamAbv`).
 
 This was one of the most important steps in the entire wrangling process because it ensured that the same franchise could be tracked consistently across the full time period.
 
-5. Inconsistent season formatting
+---
 
-Another issue involved how seasons were labeled. In the original files, seasons were often represented in the format:
+## 5. Inconsistent Season Formatting
+
+Another issue involved how seasons were labeled. In the original files, seasons were often represented in the format YYYY-YY:
 
 1990-91
 1996-97
 2003-04
 
-While this is readable, it becomes awkward when merging datasets, creating time-series visualizations, or sorting seasons numerically. To simplify analysis, season labels were converted to a single-year format using the starting year of the season.
+While this format is readable, it becomes difficult when merging datasets, creating time-series visualizations, or sorting seasons numerically.
 
-Examples:
+To simplify analysis, season labels were converted to a single-year format using the starting year of the season.
+
+### Examples
 
 1990-91 → 1990
-
 1992-93 → 1992
-
 2003-04 → 2003
+
 
 This made it easier to:
 
-sort seasons chronologically
+- sort seasons chronologically  
+- align team records with PF/C summaries  
+- use the year as a continuous variable in graphs and later analysis  
 
-align team records with PF/C summaries
+Scripts were updated to detect the year or season column flexibly since not every dataset used the exact same column name.
 
-use the year as a continuous variable in graphs and later analysis
+---
 
-Scripts were updated to detect the year or season column flexibly, since not every file used the exact same column name.
-
-6. Unnecessary and redundant variables
+## 6. Unnecessary and Redundant Variables
 
 Some generated datasets contained share-based columns such as:
 
-3PA_Share
+- `3PA_Share`
+- `2PA_Share`
+- `3PM_Share`
+- `2PM_Share`
 
-2PA_Share
+These were removed during later cleaning because they were not essential to the main research question and could be recreated if needed from the totals.
 
-3PM_Share
+Keeping too many derived columns would make the dataset harder to interpret and increase clutter in later visualizations.
 
-2PM_Share
+Removing these variables allowed the final summary datasets to focus on the measures most relevant to the project:
 
-These were removed in later cleaning because they were not essential to the main research question and could be recreated if needed from the totals. Keeping too many derived columns would make the dataset harder to interpret and increase clutter in later visualizations.
+- three-point attempts  
+- two-point attempts  
+- shooting percentages  
+- team totals  
+- team averages  
+- win-loss outcomes  
 
-Removing these variables made the final summary datasets cleaner and more focused on the measures central to the project:
+---
 
-three-point attempts
+## 7. Header and File Structure Issues
 
-two-point attempts
+Some scripts initially ran into issues because CSV files were not always interpreted consistently. In one case, a `DictReader` could not properly detect header fields, which caused an error when writing output files.
 
-shooting percentages
+To fix this, the code was adjusted to read rows more defensively and detect key columns such as:
 
-team totals
+- `Team`
+- `Tm`
+- `Year`
+- `Season`
 
-team averages
+This helped make the scripts robust enough to handle slight structural inconsistencies between files.
 
-win-loss outcomes
+---
 
-7. Header and file-structure issues
+# Cleaning and Transformation Process
 
-Some scripts initially ran into issues because CSV files were not always interpreted the same way. In one case, a DictReader could not properly detect header fields, which caused an error when writing output files.
+## Step 1: Filtering Raw Data into PF_C Files
 
-To fix this, the code was adjusted to read rows more defensively and detect key columns such as Team, Tm, Year, or Season more flexibly. This helped make the scripts robust enough to handle slight structural inconsistencies between files.
+The first transformation step was to isolate frontcourt players from the raw season files. The raw player files included every player in the league, but the research question focuses specifically on power forwards and centers.
 
-Cleaning and Transformation Process
-Step 1: Filtering raw data into PF_C files
+Each season file was filtered so that only players with relevant position designations were retained.
 
-The first transformation step was to isolate frontcourt players from the raw season files. The raw player files included every player in the league, but the research question is specifically about power forwards and centers.
+These filtered outputs became the **PF_C season files**.
 
-Each season file was filtered so that only players with relevant position designations were retained. These filtered outputs became the PF_C season files.
+This ensured that all later analysis focused exclusively on the frontcourt positions relevant to the decision-maker’s question.
 
-This step ensured that all later analysis was focused only on the frontcourt positions relevant to the decision-maker’s question.
+---
 
-Step 2: Standardizing team abbreviations in PF_C files
+## Step 2: Standardizing Team Abbreviations in PF_C Files
 
-Once the PF_C files were created, they were still not fully consistent because historical franchise codes varied by era. Scripts were written to search all files beginning with PF_C_shooting and replace outdated abbreviations with standardized ones.
+Once the PF_C files were created, they were still not fully consistent because historical franchise codes varied by era.
 
-This allowed all team-level comparisons to use one common identifier system rather than mixing historical and modern codes.
+Scripts were written to search all files beginning with `PF_C_shooting` and replace outdated abbreviations with standardized ones.
 
-Step 3: Creating team-level averages and totals
+This allowed all team-level comparisons to use one consistent identifier system.
 
-After the PF_C files were standardized, another script was built to scan all PF_C season files and generate one combined dataset containing team-level averages for PF/C shooting stats.
+---
+
+## Step 3: Creating Team-Level Averages and Totals
+
+After the PF_C files were standardized, another script was created to scan all PF_C season files and generate one combined dataset containing team-level averages for PF/C shooting statistics.
 
 This script:
 
-searched for all files beginning with PF_C_shooting
+- searched for all files beginning with `PF_C_shooting`
+- extracted the season from the filename
+- grouped rows by team
+- calculated average values for each stat for PF/C players on that team
+- added the full team name based on the abbreviation
+- formatted averages to three decimal places
 
-extracted the season from the filename
+Later, this script was expanded to include **team totals** for shot-count variables such as:
 
-grouped rows by team
+- `3P`
+- `3PA`
+- `2P`
+- `2PA`
+- `FG`
+- `FGA`
+- `FT`
+- `FTA`
 
-calculated average values for each stat for PF/C players on that team
+Totals were important because averages alone do not fully show how much frontcourt players contributed to a team’s offensive shot profile.
 
-added the full team name based on the abbreviation
+The resulting dataset: `PF_C_team_averages_all_years_cleaned.csv`
 
-formatted averages to three decimal places
-
-Later, this script was expanded to also include team totals for shot-count variables such as:
-
-3P
-
-3PA
-
-2P
-
-2PA
-
-FG
-
-FGA
-
-FT
-
-FTA
-
-This was important because averages alone do not fully show how much frontcourt players were actually contributing to a team’s shot profile. Totals provided additional context.
-
-The result was the dataset:
-
-PF_C_team_averages_all_years_cleaned.csv
 
 This file shows, for each team and year, how power forwards and centers performed as shooters and how large their shot volumes were.
 
-Step 4: Creating the yearly league summary
+---
 
-A separate script was then created to aggregate all PF_C files into a single yearly summary. Rather than grouping by team, this script grouped by season and produced one row per year.
+## Step 4: Creating the Yearly League Summary
+
+A separate script aggregated all PF_C files into a single yearly summary.
+
+Rather than grouping by team, this script grouped by season and produced one row per year.
 
 This created:
 
-league-wide averages for frontcourt shooting metrics
+- league-wide averages for frontcourt shooting metrics
+- yearly totals for major shot-count variables
 
-yearly totals for major shot-count variables
+This dataset was particularly useful for answering the main research question:
 
-This file was especially useful for answering the first part of the research question:
+> Has the role of NBA power forwards and centers shifted toward perimeter shooting over the past 30 years?
 
-Has the role of NBA power forwards and centers shifted toward perimeter shooting over the past 30 years?
+By summarizing the league’s frontcourt shooting profile into one row per season, long-term trends become easy to visualize.
 
-Because it compresses the league’s frontcourt shooting profile into one row per season, it becomes very easy to visualize long-term trends in:
+Examples of trends examined:
 
-PF/C three-point attempts
+- PF/C three-point attempts  
+- PF/C two-point attempts  
+- PF/C shooting percentages  
+- shot volume changes over time  
 
-PF/C two-point attempts
+The resulting dataset: `PF_C_yearly_summary_cleaned.csv`
 
-PF/C shooting percentages
+---
 
-shot volume changes over time
+## Step 5: Cleaning the Team Records Dataset
 
-The result was the dataset:
+The team records dataset required a separate wrangling process because it used `TeamCity` and `TeamName` fields rather than a single abbreviation.
 
-PF_C_yearly_summary_cleaned.csv
+This dataset was intended to provide a measure of team success that could be compared with frontcourt shooting patterns.
 
-Step 5: Cleaning the team records dataset
+Scripts were written to:
 
-The team records dataset required a separate wrangling process because it used team city and team name fields rather than a single clean abbreviation. This dataset was intended to provide a measure of team success that could later be compared with frontcourt shooting patterns.
+- rename outdated cities
+- rename outdated team names
+- merge city and team name into one team label
+- generate a matching team abbreviation field
+- standardize season values into a single start year
 
-To prepare it, scripts were written to:
+This produced: `nba_team_records_1990_2025_cleaned.csv`
 
-rename outdated cities
 
-rename outdated team names
+This step ensured that team success data could be matched directly with PF/C team-level shooting summaries.
 
-merge city and team name into one team label
+---
 
-generate a matching abbreviation field
+# From Raw Data to Final Analytical Datasets
 
-standardize season values into a single start year
+The full transformation pipeline can be summarized as follows.
 
-This produced:
-
-nba_team_records_1990_2025_cleaned.csv
-
-This step was necessary so the team success data could be matched more easily with the PF/C team-level shooting summaries.
-
-From Raw Data to Final Analytical Datasets
-
-The overall transformation can be summarized as follows.
-
-Raw Data
+## Raw Data
 
 Original season-level NBA player totals for all players and all teams.
 
-PF_C Data
+## PF_C Data
 
-Filtered seasonal files containing only power forwards and centers, with standardized team abbreviations and cleaner structure.
+Filtered seasonal files containing only power forwards and centers with standardized team abbreviations.
 
-Summary Data
+## Summary Data
 
-Three aggregated datasets used directly for analysis:
+Three aggregated datasets used directly for analysis.
 
-PF_C_team_averages_all_years_cleaned.csv
+### `PF_C_team_averages_all_years_cleaned.csv`
 
-Shows team-by-team, year-by-year PF/C averages and totals. Useful for comparing team frontcourt usage and linking frontcourt style to team performance.
+Shows team-by-team, year-by-year PF/C averages and totals.
 
-PF_C_yearly_summary_cleaned.csv
+Useful for comparing frontcourt usage across teams and linking shooting trends to team performance.
 
-Shows league-wide yearly PF/C shooting trends. Useful for analyzing long-term changes in the role of big men.
+### `PF_C_yearly_summary_cleaned.csv`
 
-nba_team_records_1990_2025_cleaned.csv
+Shows league-wide yearly PF/C shooting trends.
 
-Shows yearly team performance outcomes such as wins and losses. Useful for testing whether frontcourt shooting patterns are associated with team success.
+Useful for analyzing long-term changes in the role of big men.
 
-Assumptions and Decisions Made During Cleaning
+### `nba_team_records_1990_2025_cleaned.csv`
 
-Several assumptions were required during the wrangling process.
+Shows yearly team performance outcomes including wins and losses.
 
-1. Modern franchise identity was used for consistency
+Useful for testing whether frontcourt shooting patterns are associated with team success.
 
-When a franchise changed city, name, or abbreviation, the data was standardized to a single consistent identity so that long-term trends would not be artificially split.
+---
 
-2. Multi-team trade rows were excluded from team-level aggregation
+# Assumptions and Decisions Made During Cleaning
 
-Rows such as 2TM and 3TM were treated as non-team summary rows and excluded where necessary to prevent duplicate counting.
+Several assumptions were made during the wrangling process.
 
-3. Missing values were left blank rather than imputed
+### 1. Modern franchise identity was used for consistency
 
-For shooting stats, blank or missing values were not artificially filled in. This avoided introducing assumptions that were not supported by the data.
+When a franchise changed city, name, or abbreviation, the data was standardized to one consistent identity.
 
-4. Season was represented by starting year
+### 2. Multi-team trade rows were excluded
 
-The season 1990-91 was represented as 1990 to simplify joining, sorting, and graphing.
+Rows such as `2TM` and `3TM` were treated as summary rows and excluded to prevent duplicate counting.
 
-5. Derived share columns were removed
+### 3. Missing values were left blank
 
-Columns such as 3PA_Share and 2PA_Share were removed because they were not central to the analysis and could be recalculated later if needed.
+Missing shooting values were not imputed to avoid introducing unsupported assumptions.
 
-Why the Wrangling Process Matters
+### 4. Season represented by starting year
 
-The wrangling process was not just a technical step. It directly shaped the quality and credibility of the analysis. Without cleaning the franchise changes, removing trade-related duplicate rows, filtering by position, and standardizing the season format, it would not be possible to make valid comparisons across 30 years of NBA data.
+Example: 1990-91 → 1990
 
-Because the research question depends on long-term consistency, this preparation work was essential. The final datasets now provide a reliable foundation for examining whether power forwards and centers have shifted toward perimeter shooting and whether teams should treat three-point shooting as a required skill in big-man development and roster construction.
+
+This simplified merging, sorting, and visualization.
+
+### 5. Derived share columns were removed
+
+Columns such as `3PA_Share` and `2PA_Share` were removed because they were not central to the analysis.
+
+---
+
+# Why the Wrangling Process Matters
+
+The wrangling process directly affected the reliability of the analysis. Without cleaning franchise changes, removing trade-related duplicate rows, filtering by position, and standardizing season formats, it would not be possible to make valid comparisons across 30 years of NBA data.
+
+Because the research question relies on long-term consistency, this preparation work was essential. The final datasets now provide a reliable foundation for analyzing how the role of power forwards and centers has evolved and whether teams should treat three-point shooting as a required skill in modern big-man development and roster construction.
+
+
+
