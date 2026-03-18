@@ -16,3 +16,13 @@ The results of this analysis will help inform a key decision faced by NBA front 
 ## CLD diagram 
 
 ![Causal Loop Diagram](img/nba_cld_diagram.png)
+
+## Visualizations
+
+![Team Success](img/team_success.png)
+
+![2PT vs 3PT](img/2pt_3pt_shot.png)
+
+![Wins and 3PT% compared](img/wins_3pt_shots.png)
+
+![PF/C Shooting from 1990-2024](img/pf_c_shooting.png)
