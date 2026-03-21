@@ -15,7 +15,7 @@ The results of this analysis will help inform a key decision faced by NBA front 
 
 ## CLD diagram 
 
-![Causal Loop Diagram](img/nba_cld_diagram.png)
+![Causal Loop Diagram](img/nba_cld.png)
 
 ## Visualizations
 
