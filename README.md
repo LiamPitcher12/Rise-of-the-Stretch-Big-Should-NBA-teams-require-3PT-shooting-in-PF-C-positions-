@@ -21,8 +21,24 @@ The results of this analysis will help inform a key decision faced by NBA front 
 
 ![Team Success](img/team_success.png)
 
+1. Team Wins vs PF/C 3PA (1990–2024 avg)
+
+This scatterplot explores the relationship between team success and the average number of three-point attempts taken by power forwards and centers. The upward trendline suggests that teams whose PF/C players attempt more threes also tend to have more wins over time. While this does not prove that PF/C shooting alone causes success, it does show a positive association between frontcourt three-point involvement and winning. This matters for the decision-maker because it suggests that the growing use of perimeter shooting by big men may be connected to stronger overall team performance, making it an important factor to consider when evaluating how the PF/C role has changed in the modern NBA.
+
 ![2PT vs 3PT](img/2pt_3pt_shot.png)
+
+2. Side-by-Side Comparison of 2PT/3PT Shots in the PF/C Positions
+
+This visualization shows how shot selection for power forwards and centers has changed from 1990 to 2024 by comparing total two-point attempts and makes with total three-point attempts and makes. The chart shows that two-point shots still remain the larger share of PF/C offense, but three-point attempts and makes rise significantly over time, especially in the more recent years. This reveals that frontcourt players are no longer limited to traditional inside scoring roles and are becoming more involved in floor spacing and perimeter offense. For the decision-maker, this is important because it shows that the role of PF/C players has clearly evolved, and any decision about player value, team strategy, or offensive structure needs to reflect that shift.
 
 ![Wins and 3PT% compared](img/wins_3pt_shots.png)
 
+3. W% and 3PT% Compared (1990–2025)
+
+This chart compares team win percentage with PF/C three-point percentage across NBA teams. It shows that stronger teams often pair higher winning percentages with relatively solid three-point shooting from their frontcourt players, although the relationship is not perfectly consistent across every franchise. The main takeaway is that efficient three-point shooting from PF/C players may help support team success, but it is likely one piece of a larger system that also includes roster construction, guard play, defense, and coaching strategy. This matters for the decision-maker because it suggests that efficiency from big men on the perimeter is relevant, but should be evaluated alongside other contributors to success rather than on its own.
+
 ![PF/C Shooting from 1990-2024](img/pf_c_shooting.png)
+
+4. 8 PF/C Players Shooting Over Their Careers
+
+This heatmap highlights how selected PF/C players adapted to the increased importance of the three-point shot over the course of their careers. The pattern shows a clear divide between traditional big men, such as Shaquille O’Neal and Dwight Howard, who contributed very little from three, and more modern or adaptable frontcourt players such as Brook Lopez, Joel Embiid, and Aaron Gordon, who show much greater three-point involvement in later seasons. Dirk Nowitzki also stands out as an early example of a big man who helped redefine the position through perimeter shooting. This matters for the decision-maker because it demonstrates that the league-wide trend seen in the team data is also visible at the player level, showing that adaptation to the three-point era has become a meaningful part of how PF/C players create value.
