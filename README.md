@@ -13,6 +13,20 @@ This project investigates whether the role of NBA power forwards and centers has
 
 The results of this analysis will help inform a key decision faced by NBA front offices and coaching staffs. Teams must decide whether to prioritize traditional interior big men or invest in developing “stretch bigs” who can shoot from the perimeter. Understanding how the role of frontcourt players has evolved can provide valuable insight into whether three-point shooting should now be considered a required skill for modern NBA power forwards and centers.
 
+## Dashboard
+
+https://mquhenygrt4mwu54cltrxz.streamlit.app/ 
+
+### Implications for the Decision based on dashboard:
+
+The analysis in this dashboard suggests that three-point shooting from power forwards and centers has become much more important over time, both at the league level and in relation to team performance. The league trend visualizations show a clear increase in frontcourt three-point attempts and makes, while the player adaptation charts show that not all PF/C players adjusted in the same way. Some players, such as Brook Lopez and Dirk Nowitzki, adapted strongly to the growing role of perimeter shooting, while more traditional big men remained focused on interior play. The team success analysis also suggests that teams with greater three-point involvement from their PF/C positions often performed better, indicating that frontcourt spacing may now be a meaningful part of winning strategy.
+
+Based on this evidence, the more promising option appears to be valuing PF/C players who can contribute to floor spacing and perimeter offense rather than relying only on traditional inside scoring. This does not mean that all big men must become high-volume shooters, but it does suggest that versatility has become more valuable in the modern NBA. At the same time, there are still uncertainties. Team success depends on many factors beyond PF/C shooting, including guard play, defense, coaching, and overall roster construction, so the patterns shown here should not be treated as proof of direct causation.
+
+Overall, the findings point toward the growing strategic value of adaptable frontcourt players. In Milestone 4, I will build on this analysis to recommend how decision-makers should evaluate the importance of PF/C shooting when considering team-building and player value in the modern game.
+
+Note: Instructions on how to use the dashboard, is found in the "How to page" 
+
 ## CLD diagram 
 
 ![Causal Loop Diagram](img/nba_cld.png)
