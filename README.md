@@ -13,6 +13,18 @@ This project investigates whether the role of NBA power forwards and centers has
 
 The results of this analysis will help inform a key decision faced by NBA front offices and coaching staffs. Teams must decide whether to prioritize traditional interior big men or invest in developing “stretch bigs” who can shoot from the perimeter. Understanding how the role of frontcourt players has evolved can provide valuable insight into whether three-point shooting should now be considered a required skill for modern NBA power forwards and centers.
 
+## Table of Contents
+
+- [Background](#background.md)
+- [Data Sources](#citations-APA)
+- [Exploratory Findings](#visualizations)
+- [System Dynamics](#cld-diagram)
+- [Analysis](#implications-for-the-decision-based-on-dashboard)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [Future Works](#future-work)
+- [References](#references)
+
 ## Dashboard
 
 https://mquhenygrt4mwu54cltrxz.streamlit.app/ 
@@ -64,3 +76,49 @@ This chart compares team win percentage with PF/C three-point percentage across 
 4. 8 PF/C Players Shooting Over Their Careers
 
 This heatmap highlights how selected PF/C players adapted to the increased importance of the three-point shot over the course of their careers. The pattern shows a clear divide between traditional big men, such as Shaquille O’Neal and Dwight Howard, who contributed very little from three, and more modern or adaptable frontcourt players such as Brook Lopez, Joel Embiid, and Aaron Gordon, who show much greater three-point involvement in later seasons. Dirk Nowitzki also stands out as an early example of a big man who helped redefine the position through perimeter shooting. This matters for the decision-maker because it demonstrates that the league-wide trend seen in the team data is also visible at the player level, showing that adaptation to the three-point era has become a meaningful part of how PF/C players create value.
+
+## Recommendations
+
+NBA teams should treat three-point shooting as an important core development skill for power forwards and centers, but not as an absolute requirement in every case.
+
+The project shows that frontcourt shooting has grown sharply over time and has become closely tied to the modern structure of NBA offense. Power forwards and centers now play in a league that values spacing, quicker ball movement, and offensive versatility. Our visualizations showed that PF/C three-point attempts increased substantially across the period studied, while player examples such as Dirk Nowitzki, Brook Lopez, and Joel Embiid showed that frontcourt players who adapted to the three-point era often became more valuable within modern systems. The team-level analysis also suggested a positive relationship between greater PF/C three-point involvement and team success, which supports the idea that perimeter-capable big men can strengthen roster construction.
+
+That said, the evidence does not support a simple rule that every frontcourt player must become a high-volume shooter. The causal loop diagram showed an important tradeoff: if teams overemphasize perimeter shooting, they risk weakening traditional big-man strengths such as rim protection, rebounding, interior scoring, and physical presence. Those skills still matter. The strongest conclusion, then, is not that teams should replace traditional frontcourt play, but that they should develop players who can add shooting ability without losing the interior skills that still drive winning.
+
+The best recommendation is for NBA teams to make three-point shooting a standard part of PF/C development, especially at the power forward position and for centers with the mobility to contribute offensively outside the paint. Teams should prioritize adaptability, not uniformity. Frontcourt players do not all need to become elite shooters, but they should be able to threaten defenses enough to support spacing and fit modern offensive systems.
+
+In practical terms, teams should build rosters around balanced frontcourt versatility. They should value players who can stretch the floor when needed, while still protecting the rim, rebounding, and finishing inside. Based on the evidence from this project, the most effective strategy is not requiring every PF/C player to be the same, but making three-point shooting a core developmental expectation within a broader frontcourt skill set.
+
+## Limitations
+
+This project has several limitations. First, the analysis relies on observational basketball data, so it can show patterns and relationships but cannot prove direct causation. Teams that win more may have stronger PF/C shooting, but they also tend to have better guards, coaching, defense, depth, and overall roster construction. Because of that, frontcourt three-point shooting should be understood as one important factor within a larger system, not the sole cause of team success.
+
+Second, the data is simplified in ways that limit precision. Much of the project uses team-level aggregates and selected player examples, which are useful for identifying broad trends but do not capture every strategic detail. A team may show strong PF/C three-point volume for different reasons, such as one elite stretch big, a spacing-heavy offensive system, or weak interior options. In the same way, focusing on a small group of players helps illustrate adaptation over time, but it does not fully represent every frontcourt player in the league.
+
+Third, the structure of the player shooting data limits the time analysis. Some files are organized in two-year intervals rather than a complete season-by-season format. This makes long-term trends visible, but it reduces the detail available for year-to-year change. Earlier eras also contain very little PF/C three-point activity, so comparisons across the full period can sometimes make the shift look even more dramatic simply because the modern game has expanded the role so much.
+
+## Future Work
+
+Future work could strengthen this project in several ways. A more advanced version could include additional variables such as pace, offensive rating, defensive rating, rebound percentage, playoff success, and salary data to better isolate the role of frontcourt shooting in team performance. This would give a more complete picture of how PF/C shooting interacts with the larger system of winning basketball.
+
+It would also be useful to separate power forwards and centers more fully, since the expectations for those positions are no longer identical. Some teams ask centers to stretch the floor, while others still rely on them primarily for screening, rebounding, and rim protection. A clearer positional split would improve the analysis.
+
+Another valuable next step would be a deeper player development study. This could track when frontcourt players added a credible three-point shot and examine how that affected their minutes, usage, efficiency, and team role. Finally, future work could apply regression or machine learning methods to estimate the relative importance of PF/C shooting compared with other contributors to winning. That would help move the project from trend analysis toward stronger decision support.
+
+# References
+
+Python Software Foundation. (2026). Python documentation (Version 3.14.3). https://docs.python.org/3/ 
+
+Streamlit. (2026). Streamlit documentation. https://docs.streamlit.io/
+
+The pandas development team. (2026). pandas documentation. https://pandas.pydata.org/docs/reference/index.html#api 
+
+Plotly Technologies Inc. (2026). Plotly Python graphing library documentation. https://plotly.com/python/ 
+
+OpenAI. (2026). ChatGPT 5.1, 5.2 [Large language model]. https://chatgpt.com/?utm_source=chatgpt.com 
+
+API Used to access data (2026) NBA.com https://github.com/swar/nba_api
+
+Basketball-Reference. (2025). NBA player totals statistics (1990–2024 seasons). Sports Reference LLC. https://www.basketball-reference.com/leagues/NBA_2025_totals.html
+
+National Basketball Association. (2024). NBA statistics. https://stats.nba.com
