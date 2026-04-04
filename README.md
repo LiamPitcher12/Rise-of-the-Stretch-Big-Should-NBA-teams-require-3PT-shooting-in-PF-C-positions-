@@ -31,6 +31,14 @@ Note: Instructions on how to use the dashboard, is found in the "How to page"
 
 ![Causal Loop Diagram](img/nba_cld.png)
 
+This causal loop diagram shows that frontcourt three-point shooting is not an isolated trend. It sits inside a larger system of development, roster strategy, offense, defense, and winning. The first major loop is R1, the three-point reinforcing loop. When teams invest more in three-point development for power forwards and centers, they increase the supply of stretch bigs. That raises PF/C three-point attempts per game, improves offensive spacing, and helps scoring efficiency. Better scoring supports more wins. More wins then encourage further roster and player development investment, which strengthens the same pattern. This loop helps explain why PF/C three-point volume grew so sharply over time.
+
+The second major loop is R2, the interior reinforcing loop. Player development can also improve interior scoring. Strong interior play supports rebounding and creates second-chance points. Those outcomes help teams win, and winning encourages continued investment in those same inside skills. This loop shows why the rise of the three-point shot did not erase the value of traditional frontcourt play. Interior scoring still matters, especially when it leads to extra possessions and efficient offense near the basket.
+
+The third major loop is B1, the skill tradeoff balancing loop. If teams push too far toward perimeter shooting, they may weaken traditional big-man skills. That can reduce rim protection, make opponent scoring easier, and hurt team wins. This loop acts as a limit. It shows that more three-point shooting is not always better if it comes at the cost of defense and interior presence.
+
+Together, these loops explain the pattern shown in the data. PF/C three-point attempts rose sharply, some players adapted well, and team success often moved with greater frontcourt shooting. At the same time, the system suggests that the best option is not to abandon inside play. The key intervention point is player development and roster investment. These variables shape both the perimeter path and the interior path. For the decision-maker, the lesson is clear: teams should value PF/C players who can stretch the floor, but they should not sacrifice rebounding, rim protection, and interior scoring to do it.
+
 ## Visualizations
 
 ![Team Success](img/team_success.png)
