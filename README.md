@@ -15,8 +15,8 @@ The results of this analysis will help inform a key decision faced by NBA front 
 
 ## Table of Contents
 
-- [Background](#background.md)
-- [Data Sources](#citations-APA)
+- [Background](Background.md#background)
+- [Data Sources](Background.md#citations-apa)
 - [Exploratory Findings](#visualizations)
 - [System Dynamics](#cld-diagram)
 - [Analysis](#implications-for-the-decision-based-on-dashboard)
